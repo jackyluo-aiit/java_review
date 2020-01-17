@@ -7,7 +7,7 @@ public class StringBufferAPI {
                 .append(1.2f)
                 .append("ffff")
                 .append(1.2)
-                .append(new Person("Jacky", 22));
+                .append(new Person("Jacky", 22, 1));
         System.out.println(sb);
         StringBuffer stringBuffer = new StringBuffer("ADH");
         stringBuffer.insert(1,"BC");

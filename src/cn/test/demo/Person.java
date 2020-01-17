@@ -4,6 +4,10 @@ import java.io.Serializable;
 
 public class Person implements Serializable {
 
+    public Person(String jacky, int i) {
+
+    }
+
     @Override
     public int hashCode() {
         return super.hashCode();
