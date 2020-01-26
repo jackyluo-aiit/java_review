@@ -8,6 +8,7 @@ public class StringAPI {
         int len = s.length();
         System.out.println(len);
 
+
         char c = s.charAt(3);
         System.out.println(c);
         //获得所求字符第一次出现的地方

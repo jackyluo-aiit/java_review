@@ -18,5 +18,7 @@ public class LinkedListDemo {
         System.out.println(linkedList);
         linkedList.push("Luo");
         System.out.println(linkedList);
+        String o = (String) linkedList.get(3);
+        System.out.println(o);
     }
 }

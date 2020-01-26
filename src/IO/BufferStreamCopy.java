@@ -9,13 +9,13 @@ public class BufferStreamCopy {
 
         try {
             bufferedInputStream = new BufferedInputStream(new FileInputStream("test.jpg"));
-            bufferedOutputStream = new BufferedOutputStream(new FileOutputStream("test_output.jpg"));
+            bufferedOutputStream = new BufferedOutputStream(new FileOutputStream("test_output.png"));
+            //定义接收字符数组
             byte[] bytes = new byte[1024];
             int len = -1;
-            while ((len = bufferedInputStream.read())!=-1){
+            while ((len = bufferedInputStream.read(bytes)) != -1){
                 bufferedOutputStream.write(bytes, 0, len);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

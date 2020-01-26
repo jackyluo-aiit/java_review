@@ -11,7 +11,9 @@ public class ArrayListDemo {
         list.add(null);
         System.out.println(list);
         list.set(2,"null");
-        System.out.println(list);
+        System.out.println();
+        Integer[] integers = new Integer[10];
+        Integer integer = integers[1];
 
 
     }

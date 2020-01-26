@@ -3,6 +3,7 @@ package Collection;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 
 public class CollectionDemo {
     public static void main(String[] args) {
@@ -34,7 +35,16 @@ public class CollectionDemo {
         //transfer to Array
         Object[] objects = coll.toArray();
         System.out.println(Arrays.toString(objects));
-
-
+        int[] arr = {1,2,3};
+        int[] arr1 = {2,4};
+        Integer[] ints = new Integer[arr.length];
+        for(int i= 0; i<=arr.length-1; i++){
+            ints[i] = Integer.valueOf(arr[i]);
+        }
+        List<Integer> newInts = Arrays.asList(ints);
+        System.out.println(newInts);
+        newInts.remove(2);
+        ints = (Integer[]) newInts.toArray();
+        System.out.println(ints);
     }
 }

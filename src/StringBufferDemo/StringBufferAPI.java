@@ -9,13 +9,19 @@ public class StringBufferAPI {
                 .append(1.2)
                 .append(new Person("Jacky", 22, 1));
         System.out.println(sb);
-        StringBuffer stringBuffer = new StringBuffer("ADH");
-        stringBuffer.insert(1,"BC");
-        System.out.println(stringBuffer);
-        stringBuffer.deleteCharAt(4);
-        System.out.println(stringBuffer);
-        stringBuffer.delete(2,4);
-        System.out.println(stringBuffer);
-        
+        StringBuffer stringBuffer = new StringBuffer("abac");
+//        stringBuffer.insert(1,"BC");
+//        System.out.println(stringBuffer);
+//        stringBuffer.deleteCharAt(4);
+//        System.out.println(stringBuffer);
+//        stringBuffer.delete(2,4);
+//        System.out.println(stringBuffer);
+        StringBuffer stringBuffer1 = new StringBuffer("caba");
+        StringBuffer reverse = new StringBuffer(stringBuffer.reverse());
+        System.out.println(reverse);
+        System.out.println(reverse.equals(stringBuffer));
+//        System.out.println(arr);
+
+
     }
 }

@@ -9,6 +9,7 @@ public class HashTableDemo {
         stringStringHashtable.put("kkk","kkk");
         stringStringHashtable.put("lll","lll");
         stringStringHashtable.put("ooo","ooo");
+        stringStringHashtable.put("kkk",null);
         System.out.println(stringStringHashtable);
     }
 }
