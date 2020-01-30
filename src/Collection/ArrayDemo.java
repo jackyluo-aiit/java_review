@@ -15,5 +15,9 @@ public class ArrayDemo {
         for (int i = 0; i<person.length;i++) {
             System.out.println("i:"+i+person[i]);
         }
+        String s = "abca";
+        int a1 = s.indexOf("a");
+        System.out.println(a1);
+
     }
 }

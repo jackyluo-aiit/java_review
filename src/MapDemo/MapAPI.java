@@ -11,7 +11,7 @@ public class MapAPI {
         map.put("白日鼠", "白胜");
         map.put("豹子头", "林冲");
         map.put("豹子头", "林虫儿");
-
+        System.out.println(map.size());
         Map<String, String> objectObjectHashMap = new HashMap<>();
         //复制另外一个Map
         objectObjectHashMap.putAll(map);
