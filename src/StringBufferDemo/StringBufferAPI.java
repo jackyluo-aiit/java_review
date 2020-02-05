@@ -19,7 +19,8 @@ public class StringBufferAPI {
         StringBuffer stringBuffer1 = new StringBuffer("caba");
         StringBuffer reverse = new StringBuffer(stringBuffer.reverse());
         System.out.println(reverse);
-        System.out.println(reverse.equals(stringBuffer));
+        System.out.println(stringBuffer1.equals(stringBuffer1.reverse()));//true
+        System.out.println(reverse.equals(stringBuffer));//false
 //        System.out.println(arr);
 
 

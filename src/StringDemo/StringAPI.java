@@ -46,6 +46,11 @@ public class StringAPI {
         String trim = trimString.trim();
         System.out.println("|"+trim+"|");
 
+        String s1 = ".16.254.1";
+        String[] sub = s1.split("\\.");
+        System.out.println(sub.length);
+
+
 
     }
 }
