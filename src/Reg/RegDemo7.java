@@ -21,5 +21,6 @@ public class RegDemo7 {
 
         String r5 = s1.replaceAll("(?:(?:a)b)(?<work>c)\\k<work>", "*");//?:标记需要的的括号并起名
         System.out.println(r5);
+
     }
 }
