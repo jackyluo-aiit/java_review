@@ -48,6 +48,7 @@ public class StringAPI {
 
         String s1 = ".16.254.1";
         String[] sub = s1.split("\\.");
+        String s2 = sub[sub.length-1];
         System.out.println(sub.length);
 
 
