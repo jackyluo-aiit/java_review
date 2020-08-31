@@ -1,4 +1,4 @@
-package ThreadDemo;
+package src.ThreadDemo;
 
 /*
 这个类是卖票的窗口类，创建了4个类对象就是4个窗口

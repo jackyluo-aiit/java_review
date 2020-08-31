@@ -1,4 +1,4 @@
-package ThreadDemo;
+package src.ThreadDemo;
 
 public class TicketSale1 implements Runnable {
 

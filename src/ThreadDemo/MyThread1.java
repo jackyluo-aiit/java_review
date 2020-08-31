@@ -1,4 +1,4 @@
-package ThreadDemo;
+package src.ThreadDemo;
 
 public class MyThread1 implements Runnable{
     private String name;
