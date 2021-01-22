@@ -1,4 +1,4 @@
-package ThreadDemo;
+package src.ThreadDemo;
 
 public class threadDemo{
     public static void main(String[] args) {
